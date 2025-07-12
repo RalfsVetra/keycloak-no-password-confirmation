@@ -44,7 +44,7 @@ import org.keycloak.services.validation.Validation;
 import org.keycloak.authentication.forms.RegistrationPage;
 
 public class RegistrationPasswordNoConfirmation implements FormAction, FormActionFactory {
-  public static final String PROVIDER_ID = "registration-password-no-confirmation";
+  public static final String PROVIDER_ID = "registration-pwd-no-confirmation";
 
   @Override
   public String getHelpText() {
